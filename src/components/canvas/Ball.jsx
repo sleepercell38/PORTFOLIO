@@ -10,8 +10,16 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+// 🧠 Fallback-safe Ball component
+const Ball = ({ imgUrl }) => {
+  // Use fallback image if imgUrl is undefined or invalid
+  const texturePath = imgUrl || "/assets/fallback.png";
+  const [decal] = useTexture([texturePath]);
+
+  // Debug log to catch bad icons
+  if (!imgUrl) {
+    console.warn("⚠️ BallCanvas received undefined imgUrl, using fallback.");
+  }
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
