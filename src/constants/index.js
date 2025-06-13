@@ -3,12 +3,12 @@ import {
   backend,
   creator,
   web,
-  javascript,
+
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
+
+
+
+
   tailwind,
   nodejs,
   mongodb,
@@ -28,6 +28,9 @@ import {
   ai
   
 } from "../assets";
+
+
+
 
 
 
@@ -68,24 +71,24 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+   icon: "/assets/html.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "/assets/css.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "/assets/javascript.png",
   },
 
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "/assets/reactjs.png",
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+   icon: "/assets/redux.png",
   },
   {
     name: "Tailwind CSS",
