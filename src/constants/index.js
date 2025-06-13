@@ -1,37 +1,3 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-
-  typescript,
-
-
-
-
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  employeedashboard,
-  mern,
-  ai
-  
-} from "../assets";
-
-
-
-
 
 
 export const navLinks = [
@@ -52,19 +18,19 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: "/assets/web.png",
   },
   {
     title: "React Developer",
-    icon: mobile,
+    icon: "/assets/mobile.png",
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: "/assets/backend.png",
   },
   {
     title: "Collaborator",
-    icon: creator,
+    icon: "/assets/creator.png",
   },
 ];
 
@@ -92,27 +58,27 @@ const technologies = [
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "/assets/css.png",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: "/assets/nodejs.png",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: "/assets/mongodb.png",
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: "/assets/threejs.svg",
   },
   {
     name: "git",
-    icon: git,
+    icon: "/assets/git.png",
   },
   {
     name: "figma",
-    icon: figma,
+    icon: "/assets/figma.png",
   },
 
 ];
@@ -135,7 +101,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Octanet Services",
-    icon: shopify,
+ 
     iconBg: "#383E56",
     date: "August 2024 - September 2024",
     points: [
@@ -148,7 +114,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "MGDRSCT( CHARITABLE TRUST)",
-    icon: meta,
+
     iconBg: "#E6DEDD",
     date: "Feberuary 2025 - May 2025",
     points: [
@@ -204,7 +170,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: employeedashboard,
+    image: "/assets/emp.jpg",
     source_code_link: "https://github.com/",
   },
   {
@@ -229,7 +195,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: mern,
+    image: "/assets/mern.jpg",
     source_code_link: "https://github.com/",
   },
   {
@@ -250,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ai,
+    image: "/assets/ai.jpg",
     source_code_link: "https://github.com/",
   },
 ];
