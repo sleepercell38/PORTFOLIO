@@ -1,3 +1,15 @@
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import docker from "../assets/docker.png"
+import figma from "../assets/figma.png"
+import git from "../assets/git.png"
+import js from "../assets/javascript.png"
+import mongodb from "../assets/mongodb.png"
+import nodejs from "../assets/nodejs.png"
+import reactjs from "../assets/reactjs.png"
+import redux from "../assets/redux.png"
+import tailwind from "../assets/tailwind.png"
+import threejs from "../assets/threejs.svg"
 
 
 export const navLinks = [
@@ -37,48 +49,48 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-   icon: "/assets/html.png",
+   icon: html,
   },
   {
     name: "CSS 3",
-    icon: "/assets/css.png",
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: "/assets/javascript.png",
+    icon: js,
   },
 
   {
     name: "React JS",
-    icon: "/assets/reactjs.png",
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
-   icon: "/assets/redux.png",
+   icon: redux,
   },
   {
     name: "Tailwind CSS",
-    icon: "/assets/css.png",
+    icon: tailwind,
   },
   {
     name: "Node JS",
-    icon: "/assets/nodejs.png",
+    icon: nodejs,
   },
   {
     name: "MongoDB",
-    icon: "/assets/mongodb.png",
+    icon: mongodb,
   },
   {
     name: "Three JS",
-    icon: "/assets/threejs.svg",
+    icon: threejs,
   },
   {
     name: "git",
-    icon: "/assets/git.png",
+    icon: git,
   },
   {
     name: "figma",
-    icon: "/assets/figma.png",
+    icon: figma,
   },
 
 ];
