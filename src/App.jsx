@@ -6,13 +6,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div 
-        className=' bg-cover bg-no-repeat bg-center min-h-screen w-full'
-        style={{ backgroundImage: "url('/assets/herobg.png')" }}
-        >
+      
           <Navbar />
           <Hero />
-        </div>
+      
         <About />
         <Experience />
         <Tech />
